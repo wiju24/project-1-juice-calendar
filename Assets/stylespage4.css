@@ -1,0 +1,110 @@
+/* general styling  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap');
+
+:root{
+    --lightGreen:#8FCE00;
+    --green:#2EBE3A;
+    --orange:#FF9F2E;
+    --lightRed:#FC6E61;
+    --lightOrange:#FFB97A;
+}
+
+*   {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.pri-btn{
+    background-color: var(--green);
+}
+
+.sec-btn{
+    background-color: var(--lightGreen);
+}
+
+.textField{
+    border-radius: 8px;
+    border: 4px;
+}
+/* Styling About Section */
+
+#aboutSec.container {
+width: 1500px;
+align-items: center;
+
+}
+
+#aboutSec.container h1 {
+
+    font-weight: 900;
+    justify-content: center;
+}
+
+#aboutSec.container ul {
+
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#aboutSec.container p {
+
+    font-weight: 400;
+    font-size: 20px;
+}
+/* Styling Carousel */
+
+#carouselExampleCaptions.carousel.slide {
+   /*  width: 1000px;
+    margin-left: 210px;
+    margin-right: 30px; */
+    width: 1011px;
+    align-items: center;
+    margin-left: 110px;
+
+
+/* styling footer */
+
+#socials.container h3 {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#socials.container li {
+    
+    list-style: none;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#footer.container {
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: center; 
+    flex-wrap: nowrap;
+   
+}
+
+#footer.container.socials a {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+#footer.container.socials {
+    display: inline-flex;
+    align-content: space-around;
+    flex-wrap: nowrap;
+
+}
+#footer.container img {
+
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-content: space-around;
+    flex-wrap: nowrap;
+
+}
