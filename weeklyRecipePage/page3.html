@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Weekly Recipe</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> 
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./asset/main.css">
+    <link rel="stylesheet" href="./asset/page3.css">
+
+</head>
+<body>
+
+    <header class="container-fluid mt-5 mb-5 d-flex justify-content-center">
+        <div class="title">
+           <h1>Weekly Recipe</h1>
+           <h1>Weekly Recipe</h1>
+        </div>
+    </header>
+
+        <!-- Swiper -->
+    <div class="swiper mySwiper d-flex align-content-center">
+        <div class="swiper-wrapper">
+
+            <div class="col-3 myCard swiper-slide">
+                <div class="c-img" ></div>
+                <div class="c-text">
+                    <h2>Monday</h2>
+                    <ul>
+                        <li>Recipe</li>
+                        <li>details</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div class="c-function"></div>
+            </div>
+
+            <div class="col-3 myCard swiper-slide" id="c2">
+                <div class="c-img"></div>
+                <div class="c-text">
+                    <h2>Tuesday</h2>
+                    <ul>
+                        <li>Recipe</li>
+                        <li>details</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div class="c-function"></div>
+            </div>
+
+            <div class="col-3 myCard swiper-slide" id="c3">
+                <div class="c-img" ></div>
+                <div class="c-text">
+                    <h2>Wednesday</h2>
+                    <ul>
+                        <li>Recipe</li>
+                        <li>details</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div class="c-function"></div>
+            </div>
+            
+            <div class="col-3 myCard swiper-slide" id="c4">
+                <div class="c-img" ></div>
+                <div class="c-text">
+                    <h2>Thursday</h2>
+                    <ul>
+                        <li>Recipe</li>
+                        <li>details</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div class="c-function"></div>
+            </div>
+            
+            <div class="col-3 myCard swiper-slide" id="c5">
+                <div class="c-img"></div>
+                <div class="c-text">
+                    <h2>Friday</h2>
+                    <ul>
+                        <li>Recipe</li>
+                        <li>details</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div class="c-function"></div>
+            </div>
+            
+            <div class="col-3 myCard swiper-slide" id="c6">
+                <div class="c-img"></div>
+                <div class="c-text">
+                    <h2>Saturday</h2>
+                    <ul>
+                        <li>Recipe</li>
+                        <li>details</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div class="c-function"></div>
+            </div>
+            
+            <div class="col-3 myCard swiper-slide" id="c7">
+                <div class="c-img" ></div>
+                <div class="c-text">
+                    <h2>Sunday</h2>
+                    <ul>
+                        <li>Recipe</li>
+                        <li>details</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+                <div class="c-function"></div>
+            </div>
+            
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+
+</body>
+</html>
