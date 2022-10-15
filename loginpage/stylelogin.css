@@ -1,0 +1,26 @@
+.login-container{
+    display: grid;
+    margin: 400px;
+    position: center;
+    flex-wrap: wrap;
+}
+
+#juice-header, #forgot{
+    text-align: center;
+}
+
+#login, #sign-up, input{
+    cursor: pointer;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+button {
+    background-color: #2ebe3a;
+}
+
+body{
+    background-image: url(./images/login.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
