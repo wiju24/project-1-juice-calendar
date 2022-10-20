@@ -1,0 +1,85 @@
+
+body{
+    background: url(../../img/homepage/bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.content{
+    background-color: #fff;
+}
+
+.headerIcon a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#aboutSec.container {
+    align-items: center;
+}
+
+#aboutSec img{
+    width: 100%;
+}
+
+#aboutSec.container h1 {
+    font-weight: 900;
+    justify-content: center;
+}
+
+#aboutSec.container ul {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#aboutSec.container p {
+    font-weight: 400;
+    font-size: 20px;
+}
+/* Styling Carousel */
+
+.bg{
+    height:600px;
+    background: url("../../img/homepage/signupphoto.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-shadow:5px 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+#bg2 .bg{
+    background: url("../../img/homepage/watermelonjuice.png") no-repeat;
+    background-size: cover;
+}
+
+#bg3 .bg{
+    background: url("../../img/homepage/juiceschedule.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+#footer img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.title h1{
+    transform: translate(0,-50%);
+}
+
+
+@media only screen and (max-width: 576px){
+    .title h1{
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .title h1:nth-child(1){
+        position: absolute;
+        transform: translate(0,-50%);
+    }
+}
